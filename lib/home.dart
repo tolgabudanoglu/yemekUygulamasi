@@ -239,7 +239,7 @@ class _homePageState extends State<homePage> {
                   offset: const Offset(0, 1),
                 )
               ]),
-          width: 80,
+          width: 70,
           height: 25,
           child: Row(
             children: [
@@ -247,7 +247,7 @@ class _homePageState extends State<homePage> {
               Text(
                 "$score / 10",
                 style: const TextStyle(
-                    color: Color.fromARGB(255, 0, 161, 157), fontSize: 16),
+                    color: Color.fromARGB(255, 0, 161, 157), fontSize: 12),
               ),
             ],
           )),
