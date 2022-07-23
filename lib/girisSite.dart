@@ -87,6 +87,7 @@ class _girisSitePageState extends State<girisSitePage> {
                 ),)
               ],
             ),
+            Divider(thickness: 3,),
              Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
@@ -100,6 +101,7 @@ class _girisSitePageState extends State<girisSitePage> {
                 ),)
               ],
             ),
+           
              SizedBox(height: 15,),
              Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -114,6 +116,7 @@ class _girisSitePageState extends State<girisSitePage> {
                 ),)
               ],
             ),
+            Divider(thickness: 3,),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
@@ -129,6 +132,7 @@ class _girisSitePageState extends State<girisSitePage> {
             ),
 
             SizedBox(height: 15,),
+           
 
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
@@ -147,6 +151,7 @@ class _girisSitePageState extends State<girisSitePage> {
                 ),)
               ],
             ),
+            Divider(thickness: 3,),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
@@ -165,7 +170,8 @@ class _girisSitePageState extends State<girisSitePage> {
               ],
             ),
             SizedBox(height: 15,),
-
+            
+           
              Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[
@@ -183,6 +189,7 @@ class _girisSitePageState extends State<girisSitePage> {
                 ),)
               ],
             ),
+            Divider(thickness: 3,),
             Row(
               mainAxisAlignment: MainAxisAlignment.center,
               children: <Widget>[

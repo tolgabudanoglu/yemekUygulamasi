@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_application_4/girisSite.dart';
+import 'package:flutter_application_4/sepet.dart';
 
 class NavBar extends StatelessWidget {
   @override
@@ -22,7 +24,7 @@ class NavBar extends StatelessWidget {
               ),
             ),
             decoration: BoxDecoration(
-              color: Colors.blue,
+              color: Colors.red,
               image: DecorationImage(
                   fit: BoxFit.fill,
                   image: NetworkImage(
@@ -30,28 +32,43 @@ class NavBar extends StatelessWidget {
             ),
           ),
           ListTile(
-            leading: Icon(Icons.favorite),
+            leading: Icon(Icons.login),
             title: Text('girş- üyelik'),
-            onTap: () => null,
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) =>  girisSitePage()),);
+            },
           ),
           ListTile(
-            leading: Icon(Icons.person),
+            leading: Icon(Icons.shopping_basket_outlined),
             title: Text('sepetim'),
-            onTap: () => null,
+            onTap: () {
+              Navigator.push(
+                  context,
+                  MaterialPageRoute(builder: (context) =>  sepetPage()),);
+            },
           ),
           ListTile(
-            leading: Icon(Icons.share),
+            leading: Icon(Icons.food_bank_rounded),
             title: Text('ürünlere göz atın'),
-            onTap: () => null,
+            onTap: () {
+              
+            },
           ),
           ListTile(
-            leading: Icon(Icons.notifications),
+            leading: Icon(Icons.place),
             title: Text('bölge değiştir'),
           ),
           Divider(),
           ListTile(
             leading: Icon(Icons.settings),
             title: Text('Settings'),
+            onTap: () => null,
+          ),
+          ListTile(
+            leading: Icon(Icons.logout),
+            title: Text('çıkış yap'),
             onTap: () => null,
           ),
         
