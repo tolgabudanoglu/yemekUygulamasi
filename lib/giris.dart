@@ -12,7 +12,7 @@ class girisPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('giriş sayfası'),
+        title: Text('giriş sayfas'),
       ),
 
       backgroundColor: Colors.grey.shade200,
